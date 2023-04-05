@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(180deg, #005cbf 0%, #4bbff2 100%);
+  background-image: url('../images/background/mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow-x: hidden;
   font-family: 'Inter', Tahoma, sans-serif;
   color: var(--main-text--color);
@@ -207,7 +209,6 @@ h2 {
 .link {
   font-style: normal;
   font-weight: 500;
-  text-decoration: underline;
   font-size: 16px;
   line-height: 1.8;
   display: flex;
@@ -218,6 +219,9 @@ h2 {
 
 /* TABLET */
 @media screen and (min-width: 743px) {
+  body {
+    background-image: url('../images/background/tablet.png');
+  }
   h1 {
     font-size: 36px;
   }
@@ -273,6 +277,10 @@ h2 {
 
 /* DESKTOP */
 @media screen and (min-width: 1439px) {
+  body {
+    background-image: url('../images/background/desktop.png');
+  }
+
   h1 {
     font-size: 52px;
   }
