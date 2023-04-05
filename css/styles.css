@@ -4,10 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url('../images/background/mobile.png');
+  background: linear-gradient(180deg, #005cbf 0%, #4bbff2 100%);
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: hidden;
   font-family: 'Inter', Tahoma, sans-serif;
   color: var(--main-text--color);
 }
@@ -166,7 +165,6 @@ h2 {
   background-image: url('../images/main/hero.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-position: right center; */
 }
 
 .line {
